@@ -1,9 +1,9 @@
 %global tl_name marginalia
-%global tl_revision 79621
+%global tl_revision 79811
 
 Name:		texlive-%{tl_name}
 Epoch:		1
-Version:	0.83.23
+Version:	0.83.30
 Release:	%{tl_revision}.1
 Summary:	Marginal content anywhere with automatic adjustment for LuaLaTeX
 Group:		Publishing
