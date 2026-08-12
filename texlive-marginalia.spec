@@ -1,9 +1,10 @@
 %global tl_name marginalia
-%global tl_revision 79811
+%global tl_revision 79918
+%global tl_version 0.84.1
 
 Name:		texlive-%{tl_name}
 Epoch:		1
-Version:	0.83.30
+Version:	%{tl_version}
 Release:	%{tl_revision}.1
 Summary:	Marginal content anywhere with automatic adjustment for LuaLaTeX
 Group:		Publishing
@@ -14,7 +15,7 @@ Source1:	https://mirrors.ctan.org/systems/texlive/tlnet/archive/marginalia.doc.r
 Source2:	https://mirrors.ctan.org/systems/texlive/tlnet/archive/marginalia.source.r%{tl_revision}.tar.xz
 BuildArch:	noarch
 BuildSystem:	texlive
-Provides:	texlive(%{tl_name}) = %{tl_revision}
+Provides:	texlive(%{tl_name}) = %{version}
 
 %description
 This LuaLaTeX package allows the placement of marginal content (such as
